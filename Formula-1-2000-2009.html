@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formula 1 2000-2009</title>
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 25px 150px 25px 150px;
-    }
+     body {
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 25px 200px 25px 200px;
+        font-size: 17px;
+     }
     header  {
       background-color: tomato;
       border: 10px outset lightgray;
       width: auto;
       height: 100px;
       padding: 25px;
+      margin: 30px;
       text-align: center;
     }
     h1 {
@@ -24,76 +28,104 @@
       font-size: 50px;
     }
     h2 {
-      color:blueviolet;
+      color: whitesmoke;
+      background-color: darkorchid;
+      border: 10px outset whitesmoke;
+      text-align: center;
+      text-decoration: underline; 
     }
+    p {
+      font-size: 20px;
+    }
+    
     table {
-      width: 50%;
-     
+      width:75%;
+      padding-left: 200px;
+      padding-top: 50px;
+      padding-right: 200px;
+      padding-bottom: 50px;
+      
     }
     td,  th {
-     border: 2px solid black;
+     color: whitesmoke;
+     border: 3px solid white;
+     border-radius: 20px;
      padding: 8px;
      text-align: center;
+     font-family: sans-serif;
+     font-size: 20px;
+     
    }
    .team {
+     color: darkblue;
      background-color: lime;
-     font-family: cursive;
-     font-size: 25px;
+     font-family: sans-serif;
+     font-size: 20px;
    }
    
-    tr:nth-child(even) {background-color: lime;}
+    tr:nth-child(even) {
+      
+      background-color: rgb(174, 0, 255);
+      color: black;
+    }
    
     tr:hover {background-color: rgb(0, 221, 221);}
    
     th {
-     padding-top: 12px;
-     padding-bottom: 12px;
-     text-align: left;
-     background-color: rgb(5, 109, 36);
+     padding-top: 20px;
+     padding-bottom: 20px;
+     background-color: hotpink;
      color: white;
      text-align: center;
+     font-size: 23px;
     }
     ul {
       background-color: lightslategray;
       color: white;
       padding: 20px;
-      border: 3px solid black;
+      border: 3px solid white;
+      border-radius: 5%;
+      text-align: center;
+      font-size: 20px;
       
     }
     ul li  {
-      background-color: lightsteelblue;
+      background-color: yellow;
       color: black;
       padding: 5px;
+      border: 2px solid black;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 20px;
     }
-  
-
-  .pagination {
+    
+    .pagination {
         display: inline-block;
       }
       
       .pagination a {
-        color: whitesmoke;
+        color: gray;
         float: left;
         padding: 8px 16px;
         text-decoration: none;
       }
       
       .pagination a.active {
-        background-color: lightgray;
+        background-color: yellow;
         color: black;
         border-radius: 5px;
       }
       
       .pagination a:hover:not(.active) {
         color: black;
-        background-color: #ddd;
+        background-color: white;
         border-radius: 5px;
       }
               footer {
-                  color: whitesmoke;
-                  background-color: black;
+                  color: grey;
+                  background-color: lightgray;
                   width: auto;
-                  height: 50px;
+                  height: 150px;
                   text-align: center;
               }
   </style>
@@ -102,6 +134,308 @@
   <header>
     <h1>Formula 1 2000-2009</h1>
   </header>
+
+  <table>
+    <tr>
+      <th>Year</th>
+      <th>Champion</th>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>Michael Schumacher</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Michael Schumacher</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>Michael Schumacher</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>Michael Schumacher</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Michael Schumacher</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Fernando Alonso</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Fernando Alonso</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>Kimi Raikkonen</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Lewis Hamilton</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Jenson Button</td>
+    </tr>
+  </table>
+
+  <h2>2000 Formula 1 Season</h2>
+
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Driver</th>
+      <th>Nationality</th>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Scuderia</td>
+      <td>Michael Schumacher</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Rubens Barrichello</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">West Mclaren Mercedes</td>
+      <td>Mika Hakkinen</td>
+      <td>Finnish</td>
+    </tr>
+    <tr>
+      <td>David Coulthard</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">BMW Williams</td>
+      <td>Ralf Schumacher</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Jenson Button</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Benson & Hedges Jordan</td>
+      <td>Heinz-Harald Frentzen</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Jarno Trulli</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Red Bull Sauber</td>
+      <td>Pedro Diniz</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td>Mika Salo</td>
+      <td>Finnish</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Arrows F1 Team</td>
+      <td>Pedro De La Rosa</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <td>Jos Verstappen</td>
+      <td>Dutch</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Telefonica Minardi Fondmetal</td>
+      <td>Marc Gene</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <td>Gaston Mazzacane</td>
+      <td>Argentinian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Mild Seven Benetton</td>
+      <td>Giancarlo Fisichella</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Alexander Wurz</td>
+      <td>Austrian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Gauloises Prost</td>
+      <td>Jean Alesi</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Nick Heidfeld</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="3">Jaguar Racing F1 Team</td>
+      <td>Eddie Irvine</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td>Luciano Burti</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td>Johnny Herbert</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Lucky Strike</td>
+      <td>Jacques Villeneuve</td>
+      <td>Canadian</td>
+    </tr>
+    <tr>
+      <td>Ricardo Zonta</td>
+      <td>Brazilian</td>
+    </tr>
+  </table>
+
+  <h2>2001 Formula 1 Season</h2>
+
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Driver</th>
+      <th>Nationality</th>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Scuderia Ferrari</td>
+      <td>Michael Schumacher</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Rubens Barrichello</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">West Mclaren</td>
+      <td>Mika Hakkinen</td>
+      <td>Finnish</td>
+    </tr>
+    <tr>
+      <td>David Coulthard</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">BMW Williams F1 Team</td>
+      <td>Ralf Schumacher</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Juan Pablo Montoya</td>
+      <td>Columbian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Mild Seven Benetton</td>
+      <td>Giancarlo Fisichella</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Jenson Button</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="4">Benson & Hedges Jordan</td>
+      <td>Heinz-Harald Frentzen</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Riccardo Zonta</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td>Jarno Trulli</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Jean Alesi</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Red Bull Sauber</td>
+      <td>Nick Heidfeld</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Kimi Raikkonen</td>
+      <td>Finnish</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="3">European Minardi F1</td>
+      <td>Tarso Marques</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td>Alex Young</td>
+      <td>Malaysian</td>
+    </tr>
+    <tr>
+      <td>Fernando Alonso</td>
+      <td>Spanish</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Orange Arrows</td>
+      <td>Jos Verstappen</td>
+      <td>Dutch</td>
+    </tr>
+    <tr>
+      <td>Enrique Bernoldi</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="5">Prost Grand Prix</td>
+      <td>Jean Alesi</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Heinz-Harald Frentzen</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Gaston Mazzacane</td>
+      <td>Argentinian</td>
+    </tr>
+    <tr>
+      <td>Luciano Burti</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td>Tomas Enge</td>
+      <td>Czech</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Lucky Strike BAR Honda</td>
+      <td>Olivier Panis</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Jacques Villeneuve</td>
+      <td>Canadian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="3">Jaguar Racing F1 Team</td>
+      <td>Eddie Irvine</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td>Luciano Burti</td>
+      <td>Brazilian</td>
+    </tr>
+    <tr>
+      <td>Pedro de la Rosa</td>
+      <td>Spanish</td>
+    </tr>
+  </table>
+
+  <h2>2002 Formula 1 Season</h2>
+
+  
+
 
   <h2>2006 Formula 1 Season</h2>
   <p>Fernando Alonso won the Championship and Renault won the constructors title.</p>
