@@ -7,6 +7,8 @@
     <title>Formula 2</title>
     <style>
         body {
+            color:yellow;
+            background-color: dimgray;
             font-family: Arial, Helvetica, sans-serif;
             padding: 25px 150px 25px 150px;
         }
@@ -64,6 +66,14 @@
       text-shadow: 1px 1px 2px whitesmoke, 0 0 25px black, 0 0 5px darkblue;
       font-size: 50px;
     }
+    p {font-size: 18px;}
+    h2 {
+      color: blue;
+      background-color: yellow;
+      border: 10px outset grey;
+      text-align: center;
+      text-decoration: underline;
+    }
 
     h3 {
       color: darkslateblue;
@@ -78,17 +88,22 @@
      
     }
     td,  th {
-     border: 2px solid black;
-     padding: 8px;
+     border: 10px solid black;
+     border-radius: 20%;
+     padding: 10px;
      text-align: center;
    }
    .team {
-     background-color: lime;
+     color: white;
+     background-color: blue;
      font-family: cursive;
-     font-size: 25px;
+     font-size: 20px;
    }
    
-    tr:nth-child(even) {background-color: lime;}
+    tr:nth-child(even) {
+      color: black;
+      background-color: skyblue;}
+    tr:nth-child(odd)  {background-color: purple;}
    
     tr:hover {background-color: rgb(0, 221, 221);}
    
@@ -96,21 +111,28 @@
      padding-top: 12px;
      padding-bottom: 12px;
      text-align: left;
-     background-color: rgb(5, 109, 36);
+     background-color: black; 
      color: white;
      text-align: center;
+     font-size: 20px;
     }
     ul {
-      background-color: lightslategray;
+      background-color: blue;
       color: white;
       padding: 20px;
+      border-radius: 10px;
       border: 3px solid black;
+      text-align: center;
+      font-size: 20px;
       
     }
     ul li  {
-      background-color: lightsteelblue;
+      background-color: yellow;
       color: black;
+      border-radius: 5px;
       padding: 5px;
+      text-align: center;
+     
     }
         .pagination {
   display: inline-block;
@@ -143,7 +165,8 @@
         }
     </style>
 </head>
-<body><div class="dropdown" style="float:right;">
+<body>
+  <div class="dropdown" style="float:right;">
   <button class="dropbtn">Nav</button>
   <div class="dropdown-content">
   <a href="index.html">Home</a>
@@ -171,7 +194,7 @@
     <h1>Formula 2</h1>
   </header>
 
-  <table>
+  <table align="center">
     <tr>
       <th>Year</th>
       <th>Champion</th>
@@ -192,7 +215,7 @@
 
   <h2>1969 Formula 2</h2>
 
-  <table>
+  <table align="center">
     <tr>
       <th>Team</th>
       <th>Driver</th>
@@ -213,7 +236,7 @@
   <p><strong>Ronnie Peterson</strong> won the championship.</p>
   <p>Wilson Fittipaldi and Niki Lauda made their Formual 2 debuts.</p>
 
-  <table>
+  <table align="center">
     <tr>
       <th>Team</th>
       <th>Driver</th>
@@ -229,7 +252,7 @@
       <td>French</td>
     </tr>
     <tr>
-      <td class="team" rowsspan="2">Rondel Racing</td>
+      <td class="team" rowspan="2">Rondel Racing</td>
       <td>Tim Schenken</td>
       <td>Australian</td>
     </tr>
@@ -244,7 +267,7 @@
     </tr>
     <tr>
       <td>Jean-Pierre Jaussaud</td>
-      <td>Frenh</td>
+      <td>French</td>
     </tr>
     <tr>
       <td class="team">Team Lotus</td>
@@ -340,7 +363,7 @@
   <p>Jody Scheckter was the first South African driver in Formula 2, Tom Belso was the first Danish driver.</p>
   <p>Jody Scheckter, Carlos Pace, James Hunt, David Purley and Tom Belso made their Formula 2 debut.</p>
 
-  <table>
+  <table align="center">
     <tr>
       <th>Team</th>
       <th>Driver</th>
@@ -441,7 +464,7 @@
       <td>Danish</td>
     </tr>
     <tr>
-      <td classs="team">Elcom Racing</td>
+      <td class="team">Elcom Racing</td>
       <td>Claudio Francisci</td>
       <td>Italian</td>
     </tr>
@@ -483,11 +506,11 @@
   </table>
 
   <h2>1973 Formula 2 Season</h2>
-  <p><strong>Jean-Pierre Jarier</strong></p>
+  <p><strong>Jean-Pierre Jarier</strong> won the championship.</p>
   <p>Gunnar Nilsson and Tom Pryce made the Forumula 2 debuts.</p>
   <p>Gerry Birrell was fatally injured during practice at Rouen.</p>
 
-  <table>
+  <table align="center">
     <tr>
       <th>Team</th>
       <th>Driver</th>
@@ -647,7 +670,7 @@
       <td>Italian</td>
     </tr>
     <tr>
-      <td class="team">Private Entries</td>
+      <td class="team" rowspan="4">Private Entries</td>
       <td>Bill Gubelmann</td>
       <td>American</td>
     </tr>
@@ -666,19 +689,133 @@
   </table>
 
   <h2>1974 Formula 2 Season</h2>
+  <p><strong>Patrick Depailler</strong> won the championship.</p>
+  <p>Depailler also raced in Formula 1 during the season, he drove for March Engineering in Formula 2 and Tyrrell in Formula 1.</p>
+  <p>Jacques Laffite and Patrick Tambay made their Formula 2 debuts.</p>
+
+  <table align="center">
+    <tr>
+      <th>Team</th>
+      <th>Driver</th>
+      <th>Nationality</th>
+    </tr>
+    <tr>
+      <td class="team" rowspan="4">March Engineering</td>
+      <td>Patrick Depailler</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Hans-Jochim Stuck</td>
+      <td>German</td>
+    </tr>
+    <tr>
+      <td>Jacques Coulon</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Brian Henton</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">Surtees Racing</td>
+      <td>John Watson</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td>Jose Dolhem</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="4">Ecurie Elf</td>
+      <td>Jean-Pierre Jabouille</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Michel Leclere</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Patrick Tambay</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Alain Cadini</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td class="team">Lewis Racing</td>
+      <td>Andy Sutcliffe</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="2">BP Racing France</td>
+      <td>Jacques Laffite</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td>Jean-Pierre Paoli</td>
+      <td>French</td>
+    </tr>
+    <tr>
+      <td class="team">Team Robert</td>
+      <td>Torsten Palm</td>
+      <td>Swedish</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="3">Equipe Nationale</td>
+      <td>Maurizio Flammini</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Duilio Truffo</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Alessandro Presenti-Rossi</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td class="team" rowspan="3">Trivellato Racing</td>
+      <td>Gabriele Serblin</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Giancarlo Martini</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td>Cosimo Turizio</td>
+      <td>Italian</td>
+    </tr>
+    <tr>
+      <td class="team">Team Harper</td>
+      <td>David Purley</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team">Team Baty</td>
+      <td>Tom Pryce</td>
+      <td>British</td>
+    </tr>
+    <tr>
+      <td class="team">Kuwashima Racing</td>
+      <td>Masami Kuwashima</td>
+      <td>Japanese</td>
+    </tr>
+  </table>
 
 
   <ul>
     <li>Thruxton Motorsport Centre, Hampshire, UK</li>
       <dd>1970, 1971, 1972, 1973</dd>
     <li>Hockenheim, Germany</li>
-      <dd>1970, 1971, 1972, 1973</dd>
+      <dd>1970, 1971, 1972, 1973, 1974</dd>
     <li>Montjuic Circuit, Spain</li>
       <dd>1970</dd>
     <li>Circuit de Rouen-Les-Essarts, France</li>
       <dd>1970, 1972</dd>
     <li>Autodromo di Pergusa, Pergusa-Enna, Italy</li>
-      <dd>1970, 1971, 1972, 1973</dd>
+      <dd>1970, 1971, 1972, 1973, 1974</dd>
     <li>Tulln-Langentebarn, Austria</li>
       <dd>1970, 1971</dd>
     <li>Autodromo Internationale Enzo e Dino Ferrari, Imola</li>
@@ -694,25 +831,27 @@
     <li>Circuit d'Albi, France</li>
       <dd>1971, 1972, 1973</dd>
     <li>Autodromo Vallelunga, Piero Taruffi, Roma, Italy</li>
-      <dd>1971, 1972, 1973</dd>
+      <dd>1971, 1972, 1973, 1974</dd>
     <li>Mallory Park, Leicestershire, UK</li>
       <dd>1972, 1973</dd>
     <li>Circuit de Pau-Ville, France</li>
-      <dd>1972, 1973</dd>
+      <dd>1972, 1973, 1974</dd>
     <li>Osterreichring, Styria, Austria</li>
       <dd>1972</dd>
     <li>Salzburgring, Salzburg, Austria</li>
-      <dd>1972, 1973</dd>
+      <dd>1972, 1973, 1974</dd>
     <li>Kinnekulle, Sweden</li>
       <dd>1973</dd>
-    <li>Nivelles-Baulers, Belgian</li>
+    <li>Nivelles-Baulers, Belgium</li>
       <dd>1973</dd>
     <li>Autodromo Nationale di Monza, Italy</li>
       <dd>1973</dd>
     <li>Karlskoga Motorstadion, Sweden</li>
-      <dd>1973</dd>
+      <dd>1973, 1974</dd>
     <li>Norisring, Nuremberg, Germany</li>
       <dd>1973</dd>
+    <li>Autodromo Internazionale del Mugello, Italy</li>
+      <dd>1974</dd>
   </ul>
     
     
