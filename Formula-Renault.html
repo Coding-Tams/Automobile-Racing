@@ -8,6 +8,8 @@
 </head>
 <style>
     body {
+      color:yellow;
+            background-color: dimgray;
         font-family: Arial, Helvetica, sans-serif;
         padding: 25px 150px 25px 150px;
     } .dropbtn {
@@ -65,10 +67,27 @@
       text-shadow: 1px 1px 2px whitesmoke, 0 0 25px black, 0 0 5px darkblue;
       font-size: 50px;
     }
-     h3 {
-      color: darkslateblue;
+    h2 {
+      color: ghostwhite;
+      background-color: steelblue;
+      border: 10px outset grey;
+      text-align: center;
+      text-decoration: underline;
+    }
+    p {font-size: 18px;}
+    .shadow {
+      width: auto;
+      height: auto;
+      padding: 15px;
+      border: 5px solid black;
+      color: black;
       background-color: yellow;
-      border: 10px inset white;
+      box-shadow: 10px 10px black;
+}
+     h3 {
+      color: whitesmoke;
+      background-color: darkslateblue;
+      border: 10px outset grey;
       text-align: center;
       text-decoration: underline;
     }
@@ -78,56 +97,58 @@
      
     }
     td,  th {
-     border: 2px solid black;
+     border: 20px solid black;
      padding: 8px;
      text-align: center;
    }
    .team {
-     background-color: lime;
-     font-family: cursive;
-     font-size: 25px;
+     background-color: dodgerblue;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
    }
    
-    tr:nth-child(even) {background-color: lime;}
+    tr:nth-child(even) {background-color: blue;}
    
     tr:hover {background-color: rgb(0, 221, 221);}
    
     th {
      padding-top: 12px;
      padding-bottom: 12px;
+    border: 5px solid white;
+    border-radius: 5%;
      text-align: left;
      background-color: rgb(5, 109, 36);
      color: white;
      text-align: center;
     }
+    td {
+     border: 10px solid black;
+     padding: 10px;
+     border-radius: 15%;
+   }
+    tr:nth-child(odd) { color: black;
+      background-color: skyblue;}
+    tr:nth-child(even) {background-color: purple}
     ul {
-      background-color: lightslategray;
+      background-color: blue;
       color: white;
       padding: 20px;
-      border: 3px solid black;
+      border-radius: 10px;
+      border: 3px solid lightgray;
+      text-align: center;
+      font-size: 20px;
       
     }
     ul li  {
-      background-color: lightsteelblue;
+      background-color: yellow;
       color: black;
+      border: 2px solid black;
+      border-radius: 5px;
       padding: 5px;
+      text-align: center;
+     
     }
-    td,  th {
-     border: 1px solid #ddd;
-     padding: 8px;
-   }
-   
-    tr:nth-child(even) {background-color: #f2f2f2;}
-   
-    tr:hover {background-color: #ddd;}
-   
-    th {
-     padding-top: 12px;
-     padding-bottom: 12px;
-     text-align: left;
-     background-color: yellow;
-     color: white;
-    }
+  
     .pagination {
   display: inline-block;
 }
@@ -154,7 +175,7 @@
             color: whitesmoke;
             background-color: black;
             width: auto;
-            height: 50px;
+            height: 100px;
             text-align: center;
         }
    </style>
@@ -186,7 +207,7 @@
         <h1>Formula Renault</h1>
     </header>
     
-    <table>
+    <table align="center">
         <tr>
             <th>Year</th>
             <th>Renault 3.5</th>
@@ -400,7 +421,7 @@
     </table>
 
     <h2>1998 Euro Open By Nissan Teams and Drivers</h2>
-    <table>
+    <table align="center">
       <tr>
         <th>Team</th>
         <th>Driver</th>
@@ -423,145 +444,205 @@
     </table>
 
     <h2>2004 World Series by Nissan Season</h2>
+    <div class="shadow">
     <p><strong>Heikki Kovalainen</strong> won the Championship and <strong>Pons Racing</strong> won the teams Championship.</p>
     <p>Carlin Motorsport entered the series, Tiago Monteiro and Karun Chandhok made their World Series debut</p>
+    </div>
 
     <h2>2005 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Robert Kubica</strong> won the Championship and <strong>Espilon Euskadi</strong> were the team champions.</p>
     <p>Nicolas Prost and Markus Winkelhock made their debuts, EuroInternational, Draco Multiracing, DAMS, Cram Competition and Interwetten.com entered the series.</p>
+    </div>
 
     <h2>2006 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Alx Danielsson</strong> won the Championship and <strong>Interwetten.com</strong> were team champions.</p>
     <p>Sebastian Vettel and Jerome d'Ambrosio made their debuts, Prema Powerteam and Tech 1 Racing entered the series.</p>
+    </div>
 
     <h2>2007 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Alvaro Parente</strong> won the championship and <strong>Tech 1 Racing</strong> were team champions.</p>
+    </div>
 
     <h2>2008 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Giedo Van de Garde</strong> won the championship and <strong>Tech 1 Racing</strong> were team champions.</p>
     <p>Ultimate Signature entered the series.</p>
+    </div>
 
     <h2>2009 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Bertrand Baguette</strong> won the championship and <strong>International DracoRacing</strong> were team champions.</p>
     <p>Brendon Hartley, Edoardo Mortara, Daniel Ricciardo, Greg Mansell, Oliver Turvey, Jaime ALguersuari, Max Chilton and Jules Bianchi made their debut.</p>
+    </div>
 
     <h2>2010 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Mikhail Aleshin</strong> won the championship and <strong>Tech 1 Racing</strong> were the team champions.</p>
     <p>Jean-Eric Vergne moved to the series from British Formula 3 and Alexander Rossi moved to the series from GP3.</p>
     <p>Edoardo Mortara left the series for Formula 3 Euro Series, Jules Bianchi, Max Chilton and Oliver Turvey left the series for GP2 and Jaime ALguersuari left the series for Toro Rosso in Formula 1.</p>
     <p>Prema Powerteam left the series to concentrate on other junior series, they were replaced by Fortec Motorsport. SG Formula left the series and ISR Racing took over RC Motorsport entry.</p>
+    </div>
 
     <h2>2011 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Robert Wickens</strong> won the championship and <strong>Carlin</strong> were the team champions.</p>
     <p>Robert Wickens returned to the series from GP3 and Eurocup Formula Renault 2.0 winner Kevin Korjus moved to the Formula Renault 3.5.</p>
     <p>Greg Mansell left the series for Blancpain Endurance Series and Esteban Guerrieri left for Indy Lights.</p>
+    </div>
 
     <h2>2012 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Robin Frijns</strong> won the championship and <strong>Tech 1 Racing</strong> were the team champions.</p>
     <p>Jules Bianchi and Sam Bird moved to the series from GP2, Eurocup Formula Renault 2.0 champion Robin Frijns moved to the series. Nico Muller and Antonio Felix da Costa moved to the series from GP3, 
       Kevin Magnussen and Daniel Abt moved to the series, Mikhail Aleshin returned to the series from GP2.
     </p>
     <p>Adrien Tambay and Robert Wickens left the series for DTM Series in Germany, Daniel Ricciardo and Jean-Eric Vergne left the series for Toro Rosso in Formula 1.</p>
+    </div>
 
     <h2>2013 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Kevin Magnussen</strong> won the championship and <strong>DAMS</strong> were the team champions.</p>
     <p>Sergey Sirotkin moved to the series from Italian Formula 3, Carlos Sainz Jr returned to the series and Stoffel Vandoorne moved from Eurocup Formula Renault 2.0.</p>
     <p>Daniel Abt and Sam Bird left the series for GP2 and Kevin Korjus left the series for GP3. 
       Jules Bianchi left the series for Marussia in Formula 1 and Alexander Rossi left the series for Caterham in Formula 1, he became their test driver. </p>
     <p>Zeta Corse replaced BVM Target who had left the series.</p>
+    </div>
 
     <h2>2014 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Carlos Sainz Jr</strong> won the championship and <strong>DAMS</strong> were team champions.</p>
     <p>Pierre Gasly, Luca Ghiotto and Oliver Rowland moved to series from Formula Renault 2.0. Beitske Visser moved to the series from ADAC Formel Masters, Nicolas Latifi and Esteban Ocon joined the series. 
       Mikhail Aleshin left the series for Indycar, Antonio Felix da Costa and Nico Muller left the series fro DTM Series in Germany, Stoffel Vandoorne left for GP2 and Kevin Magnussen left for Mclaren in Formula 1.
     </p>
-  
+    </div>
+
     <h2>2015 Formula Renault 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Oliver Rowland</strong> won the championship and <strong>Fortec Motorsport</strong> were the team champions.</p>
     <p>Nyck De Vries and Aurelien Panis moved to Formula Renault 3.5 series from Renault 2.0, Sean Gelael moved to the series from Formula 3, Tom Dillman moved to the series from GP2.</p>
     <p>Pierre Gasly and Sergey Sirotkin left for GP2 and Luca Ghiotto left for GP3, Carlos Sainz Jr left for Toro Rosso in Formula 1.</p>
     <p>Carlin returned to the series, ISR Racing and Zeta Corse left the series.</p>
+    </div>
 
     <h2>2016 Formula Renault V8 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Tom Dillmann</strong> won the championship and <strong>Arden Motorsport</strong> were team champions.</p>
     <p>Louis Deletraz moved to the series from Renault 2.0 NEC and Pietro Fittipaldi moved to the series from Formula 3 and Jack Aitken entered the series.</p>
     <p>Sean Gelael, Oliver Rowland and Nicolas Latifi left for Gp2 and Nyck de Vries left for GP3.</p>
     <p>DAMS left Formula Renault 3.5 and was replaced by Teo Martin Motorsport, Spirit of Race replaced International Draco Racing, Pons Racing withdrew and Carlin left the series. 
       RP Motorsport and Durango Racing Team entered the series.
     </p>
+    </div>
 
     <h2>2017 Formula Renault V8 3.5 Season</h2>
+    <div class="shadow">
     <p><strong>Pietro Fittipaldi</strong> won the championship and <strong>Lotus</strong> were team champions.</p>
     <p>Last season of Formula Renault V8 3.5 Series, Tatiana Calderon joined the series.</p>
     <p>Louis Deletraz left for Formula 2, Tom Dillmann left for Formula e and Aurelien Panis left for World Touring Car.</p>
     <p>Arden Motorsport, Comtec Racing and SMP Racing left the series Il Barone Rampante entered the series.</p>
+    </div>
 
     <h3>2004 Formula Renault 2000 Eurocup Season</h3>
+    <div class="shadow">
     <p><strong>Scott Speed</strong> won the Championship and <strong>Motopark Academy</strong> won the team Championship.</p>
     <p>Salvador Duran, Scott Speed, Jerome d'Ambrosio, Romain Grosjean and Paul di Resta made their debuts. Koiranen Motorsport, SG Formula and Lukoil Racing Team entered the series.</p>
+    </div>
 
     <h3>2005 Eurocup Formula Renault 2.0 Season</h3>
+    <div class="shadow">
     <p><strong>Kamui Kobayashi</strong> won the Championship and <strong>SG Formula</strong> were team champions.</p>
     <p>Jaime ALguersuari, Kamui Kobayashi and Tom Dillmann made their debut, Epsilon Sport and Pons Racing entered the series</p>
+    </div>
 
     <h3>2006 Eurocup Formula Renault 2.0 Season</h3>
+    <div class="shadow">
     <p><strong>Felipe Albuquerque</strong> won the Championship and <strong>JD Motorsport</strong> were team champions.</p>
     <p>Edoardo Mortara, Sebastian Buemi, Robert Wickens, Brendon Hartley, Duarte Felix da Costa and Qing Hua Ma made their debuts. MRD Motorsport, Team Jenzer and Motorsport Arena entered the series.</p>
+    </div>
 
     <h3>2007 Formula Renault 2.0 Season</h3>
+    <div class="shadow">
     <p><strong>Brendon Hartley</strong> won the championship and <strong>Epsilon Red Bull</strong> were team champions.</p>
     <p>Oliver Turvey made his debut and Daniel Ricciardo made his debut as a guest driver.</p>
+    </div>
 
     <h3>2008 Eurocup Formula Renault 2.0 Season</h3>
+    <div class="shadow">
     <p><strong>Vallteri Bottas</strong> won the championship and <strong>SG Formula</strong> were team champions.</p>
     <p>Jean-Eric Vergne, Valtteri Bottas, Antonio Felix da Costa, Alexander Sims and Nicky Catsburg made their debuts, da Costa's older brother Duarte had made his debut in 2006. 
       Hitech Junior Racing and Hitech Junior Team entered the series.
     </p>
+    </div>
 
     <h3>2009 Eurocup Formula Renault 2.0 Season</h3>
+    <div class="shadow">
     <p><strong>Albert Costa</strong> won the championship and <strong>Epsilon Euskadi</strong> were team champions.</p>
     <p>Kevin Magnussen, James Calado and Nico Muller made their debut.</p>
+    </div>
 
     <h3>2010 Eurocup Formula Renault 2.0</h3>
+    <div class="shadow">
     <p><strong>Kevin Korjus</strong> won the championship and <strong>Tech 1 Racing</strong> were team champions.</p>
+    </div>
 
     <h3>2011 Eurocup Formula Renault 2.0</h3>
+    <div class="shadow">
     <p><strong>Robin Frijns</strong> won the championship and <strong>Koiranen Motorsport</strong> were team champions.</p>
     <p>Formula BMW champion Robin Frijns entered the series, Timmy Hansen moved from Formula BMW Europe. 
       F4 Eurocup 1.6 champion Stoffel Vandoorne entered the series and Gustavo Menezes and Alex Lynn entered the series.
     </p>
+    </div>
 
     <h3>2012 Eurocup Formula Renault Season</h3>
+    <div class="shadow">
     <p><strong>Stoffel Vandoorne</strong> won the championship and <strong>Josef Kaufmann Racing</strong> were team champions.</p>
     <p>Esteban Ocon, Oliver Rowland, Jake Dennis, Josh Hill, Alex Albon, Nyck de Vries, Pierre Gasly and Aurelien Panis made their debuts.</p>
     <p>MP Motorsport became Manor MP Motorsport.</p>
+    </div>
 
     <h3>2013 Eurocup Formula Renault Season</h3>
+    <div class="shadow">
     <p><strong>Pierre Gasly</strong> won the championship and <strong>Tech 1 Racing </strong> were team champions.</p>
     <p>Jack Aitken, Luca Ghiotto and Antonio Fuoco made their debuts.</p>
     <p>ART Junior Team, Euro Nova and SMP Racing entered the series</p>
+    </div>
 
     <h3>2014 Eurocup Formula Renault Season</h3>
+    <div class="shadow">
     <P><strong>Nyck de Vries</strong> won the championship and <strong>Koiranen</strong> were team champions.</P>
     <p>Anthoine Hubert, Charles Leclerc, George Russell, Louis Deletraz and Pietro Fittipaldi made their debut.</p>
+    </div>
 
     <h3>2015 Eurocup Formula Renault</h3>
+    <div class="shadow">
     <P><strong>Jack Aitken</strong> won the championship and <strong>Josef Kaufmann Racing</strong> were teh team champions.</P>
     <p>Dan Ticktum, Ferdinand Habsburg, Jehan Daruvala and Nikita Mazepin made their debuts.</p>
+    </div>
 
     <h3>2016 Formula Renault Eurocup</h3>
+    <div class="shadow">
     <P><strong>Lando Norris</strong> won the championship and <strong>Josef Kaufmann Racing</strong> were the team champions.</P>
+    </div>
 
     <h3>2017 Formula Renault Eurocup</h3>
+    <div class="shadow">
     <p><strong>Sacha Fenestraz</strong> won the championship and <strong>R-ace GP</strong> were the team champions.</p>
     <p>Max Fewtrell and Logan Sargeant made their debuts.</p>
     <p>Arden entered the series.</p>
+    </div>
 
-    <h3>2018 Formula Renault Eurocup</h3>
+    <h3>2018 Formula Renault Eurocup</h3> 
+    <div class="shadow">
     <p><strong>Max Fewtrell</strong> won the championship and <strong>R-ace GP</strong> were the team champions.</p>
     <p>Victor Martins, Richard Verschoor, Christian Lundgaard and Oscar Piastri made their debut.</p>
+    </div>
+    
 
-    <h4>Formula Renault 3.5 Circuits</h4>
+    <h2>Formula Renault 3.5 Circuits</h2>
+    <div class="shadow">
     <p><strong>Supported Eurocup Formula Renault 2.0 at Alcaniz, 2016.</strong></p>
     <p><strong>Supported World Touring Car Championship at Hungaroring 2016.</strong></p>
     <p><strong>Supported International GT Open at Spa, Silverstone, Red Bull Ring, Monza and Catalunya 2016.</strong></p>
@@ -569,6 +650,8 @@
     <p><strong>Supported Euroformula Open at Jerez in 2016.</strong></p>
     <p><strong>Supported 6 Hours of Silverstone, 6 Hours of Spa, 4 Hours of Monza, 6 Hours of Nurburgring, 6 Hours of Mexico, 6 Hours of Circuit of the Americas and 6 Hours of Bahrain in 2017.</strong></p>
     <p><strong>Supported Renault Clio Cup at Jerez and Alcaniz in 2017.</strong></p>
+    </div>
+
     <ul>
       <li>Circuito del Jarama, Spain</li>
         <dd>2004</dd>
@@ -633,13 +716,15 @@
         <dd>2017</dd>
     </ul>
 
-    <h4>Formula Renault Eurocup Circuits</h4>
+    <h3>Formula Renault Eurocup Circuits</h3>
+    <div class="shadow">
     <p><strong>Supported the Blancpain GT Series at Monza and Silverstone in 2017.</strong></p>
     <p><strong>Supported the Pau Grand Prix 2017.</strong></p>
     <p><strong>Supported the Monaco Grand Pix in 2017 and 2018.</strong></p>
     <p><strong>Supported the International GT Open at the Hungaroring and Catalunya in 2017.</strong></p>
     <p><strong>Supported the World Endurance Championship at Nurburgring in 2017.</strong></p>
     <p><strong>Supported the European Le Mans at Red Bull Ring, Paul Ricard and Spa in 2017 and 2018.</strong></p>
+    </div>
 
     <ul>
       <li>Autodromo Nazionale Monza, Italy</li>
