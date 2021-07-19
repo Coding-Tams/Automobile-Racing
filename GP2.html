@@ -8,7 +8,9 @@
 </head>
 <style>
     body {
-        font-family: Arial, Helvetica, sans-serif;
+      color:yellow;
+            background-color: dimgray;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
         padding: 25px 150px 25px 150px;
     }
    .dropbtn {
@@ -66,11 +68,28 @@
       text-shadow: 1px 1px 2px whitesmoke, 0 0 25px black, 0 0 5px darkblue;
       font-size: 50px;
     }
+    p {font-size: 18px;}
+    .shadow {
+      width: auto;
+      height: auto;
+      padding: 15px;
+      border: 5px solid whitesmoke;
+      color: black;
+      background-color: yellow;
+      box-shadow: 10px 10px black;
+}
+    h2 {
+      color: ghostwhite;
+      background-color: steelblue;
+      border: 10px outset dodgerblue;
+      text-align: center;
+      text-decoration: underline;
+    }
 
     h3 {
-      color: darkslateblue;
-      background-color: yellow;
-      border: 10px inset white;
+      color: whitesmoke;
+      background-color: blueviolet;
+      border: 10px outset lightgrey;
       text-align: center;
       text-decoration: underline;
     }
@@ -79,56 +98,57 @@
      
     }
     td,  th {
-     border: 2px solid black;
+     border: 20px solid black;
      padding: 8px;
      text-align: center;
    }
    .team {
-     background-color: lime;
-     font-family: cursive;
-     font-size: 25px;
+     color: yellow;
+     background-color: dodgerblue;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
    }
-   
-    tr:nth-child(even) {background-color: lime;}
-   
-    tr:hover {background-color: rgb(0, 221, 221);}
-   
     th {
      padding-top: 12px;
      padding-bottom: 12px;
+    border: 5px solid white;
+    border-radius: 5%;
      text-align: left;
-     background-color: rgb(5, 109, 36);
+     background-color: black;
      color: white;
      text-align: center;
     }
-    ul {
-      background-color: lightslategray;
-      color: white;
-      padding: 20px;
-      border: 3px solid black;
-      
-    }
-    ul li  {
-      background-color: lightsteelblue;
-      color: black;
-      padding: 5px;
-    }
-    td,  th {
-     border: 1px solid #ddd;
-     padding: 8px;
+    td {
+     border: 10px solid black;
+     padding: 10px;
+     border-radius: 15%;
    }
-   
-    tr:nth-child(even) {background-color: #f2f2f2;}
+    tr:nth-child(odd) { color: black;
+      background-color: skyblue;}
+    tr:nth-child(even) {background-color: purple}
    
     tr:hover {background-color: #ddd;}
    
-    th {
-     padding-top: 12px;
-     padding-bottom: 12px;
-     text-align: left;
-     background-color: blue;
-     color: white;
+    ul {
+      background-color: blue;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 3px solid lightgrey;
+      text-align: center;
+      font-size: 20px;
+      
     }
+    ul li  {
+      background-color: yellow;
+      color: black;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 5px;
+      text-align: center;
+     
+    }
+
     .pagination {
   display: inline-block;
 }
@@ -155,7 +175,7 @@
             color: whitesmoke;
             background-color: black;
             width: auto;
-            height: 50px;
+            height: 100px;
             text-align: center;
         } 
    </style>
@@ -187,7 +207,7 @@
     <h1>GP2</h1>
     </header>
     
-    <table>
+    <table align="center">
         <tr>
             <th>Year</th>
             <th>Champion</th>
@@ -256,6 +276,7 @@
         </table>
 
         <h2>2005 GP2 Season</h2>
+        <div class="shadow">
         <p><strong>Nico Rosberg</strong> won the championship.</p>
         <p>GP2 replaced Formula 3000, some of the teams that competed in Formula 3000 entered GP2. The teams were Durango, Arden International, Coloni Motorsport, DAMS, Super Nova Racing and BCN Competicion. 
           Some new teams entered the series, they were iSport International, Hitech Piquet Racing, ART Grand Prix, David Price Racing, Campos Racing and Racing Engineering.
@@ -265,9 +286,10 @@
           Nico Rosberg moved from Formula 3 Euroseries to GP2. 
         </P>
         <p>2004 Formula 3000 champion Vitantonio Liuzzi had moved to Red Bull Racing in Formula 1.</p>
+        </div>
 
         <h3>2005 Teams and Drivers</h3>
-        <table>
+        <table align="center">
           <tr>
             <th>Team</th>
             <th>Driver</th>
@@ -400,58 +422,1783 @@
         </table>
 
         <h2>2006 GP2 Season</h2>
-      
-      <h2>2010 GP2 Season</h2>
-      <p><strong>Pastor Maldonado</strong> won the championship. <strong>Rapox</strong> were team champions</p>
+        <div class="shadow">
+        <p><strong>Lewis Hamilton</strong> won the championship and <strong>ART Grand Prix</strong> were team champions.</p>
+        <p>Andrea Zuber was the first driver to race under a UAE licence.</p>
+        <p>Mike Conway moved to GP2 from British Formula 3, Luca Filippi moved from Italian Formula 3000 to GP2.</p>
+        <p>Lewis Hamilton and Lucas di Grrassi moved to GP2 from Formula Three Euroseries. </p>
+        <p>Timo Glock moved to GP2 from Champ Car World Series and Vitaly Petrov moved to GP2 from Formula 1600 Russia.</p>
+        <p>Italian team Trident entered the series.</p>
+        <p>Mathias Lauda left for DTM in Germany, Ryan Sharp left for World Touring Cars.</p>
+        <p>Heikki Kovalainen, Nico Rosberg and Scott Speed left GP2 for Formula 1, Kovalainen went to Mild Seven Renault, Rosberg to Williams and Speed went to Toro Rosso.</p>
+        </div>
+
+        <h3>2006 Teams and Drivers</h3>
+        <table align="center">
+          <tr>
+            <th>Team</th>
+            <th>Driver</th>
+            <th>Nationality</th>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">ART Grand Prix</td>
+            <td>Alexandre Premat</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Lewis Hamilton</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">DAMS</td>
+            <td>Ferdinando Monfardini</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Franck Perera</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Arden International</td>
+            <td>Michael Ammermuller</td>
+            <td>German</td>
+          </tr>
+          <tr>
+            <td>Nicolas Lapierre</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Neel Jani</td>
+            <td>Swiss</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Trident Racing</td>
+            <td>Andreas Zuber</td>
+            <td>UAE</td>
+          </tr>
+          <tr>
+            <td>Gianmaria Bruni</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Campos Racing</td>
+            <td>Adrian Valles</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Felix Porteiro</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Super Nova Racing</td>
+            <td>Jose Maria Lopez</td>
+            <td>Argentinian</td>
+          </tr>
+          <tr>
+            <td>Fairuz Fauzy</td>
+            <td>Malaysian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">iSport International</td>
+            <td>E.J Viso</td>
+            <td>Colombian</td>
+          </tr>
+          <tr>
+            <td>Tristan Gommendy</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Timo Glock</td>
+            <td>German</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">BCN Competicion</td>
+            <td>Timo Glock</td>
+            <td>German</td>
+          </tr>
+          <tr>
+            <td>Luca Filippi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Hiroki Yashimoto</td>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Racing Engineering</td>
+            <td>Adam Carroll</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Javier Villa</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Piquet Sports</td>
+            <td>Nelson Piquet Jr</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td>Alexandre Sarnes Negrao</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Petrol Ofisi FMS International</td>
+            <td>Luca Filippi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Giorgio Pantano</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Jason Tahincioglo</td>
+            <td>Turkish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">DPR Direxiv</td>
+            <td>Olivier Pla</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Mike Conway</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Vitaly Petrov</td>
+            <td>Russian</td>
+          </tr>
+          <tr>
+            <td>Clivio Piccione</td>
+            <td>Monaco</td>
+          </tr>
+          <tr>
+            <td class="team">Durango</td>
+            <td>Lucas di Grassi</td>
+            <td>Brazilian</td>
+          </tr>
+        </table>
+
+        <h2>2007 GP2 Season</h2>
+        <div class="shadow">
+        <p><strong>Timo Glock</strong> won the championship.</p>
+        <p>Mikhail Aleshin, Sebastien Buemi, Felipe Alburquerque, Ho Pin Tung, Kazuki Nakajima and Karun Chandhok made their debut. 
+          Ho Pin Tung was the first Chinese driver in the series and Karun Chandhok was the first Indian driver.
+        </p>
+        <p>Piquet Sports became Minardi Piquet Sports and operated under an Italian licence.</p>
+        <p>Lewis Hamilton left GP2 for Mclaren in Fomrula 1.</p>
+        </div>
+
+        <h3>2007 Teams and Drivers</h3>
+        <table align="center">
+          <tr>
+            <th>Team</th>
+            <th>Driver</th>
+            <th>Nationality</th>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">ART Grand Prix</td>
+            <td>Michael Ammermuller</td>
+            <td>German</td>
+          </tr>
+          <tr>
+            <td>Mikhail Aleshin</td>
+            <td>Russin</td>
+          </tr>
+          <tr>
+            <td>Sebastian Buemi</td>
+            <td>Swiss</td>
+          </tr>
+          <tr>
+            <td>Lucas di Grassi</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">DAMS</td>
+            <td>Kazuki Nakajima</td>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <td>Nicolas Lapierre</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Arden International</td>
+            <td>Bruno Senna</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td>Adrian Zaugg</td>
+            <td>South African</td>
+          </tr>
+          <tr>
+            <td>Felipe Alburquerque</td>
+            <td>Portuguese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">Trident Racing</td>
+            <td>Pastor Maldonado</td>
+            <td>Venezuelan</td>
+          </tr>
+          <tr>
+            <td>Ricarddo Risatti</td>
+            <td>Argentinian</td>
+          </tr>
+          <tr>
+            <td>Sergio Hernandez</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Kohei Hirate</td>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Campos Racing</td>
+            <td>Vitaly Petrov</td>
+            <td>Russian</td>
+          </tr>
+          <tr>
+            <td>Giorgio Panto</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">iSport International</td>
+            <td>Timo Glock</td>
+            <td>German</td>
+          </tr>
+          <tr>
+            <td>Andreas Zuber</td>
+            <td>UAE</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="5">Racing Engineering</td>
+            <td>Filipe Alburquerque</td>
+            <td>Portuguese</td>
+          </tr>
+          <tr>
+            <td>Javier Villa</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Sergio Jimenez</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td>Ernesto Viso</td>
+            <td>Colombian</td>
+          </tr>
+          <tr>
+            <td>Marcos Martinez</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Super Nova Racing</td>
+            <td>Luca Filippi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Mike Conway</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Minardi Piquet Sports</td>
+            <td>Alexandre Negrao</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td>Roldan Rodriguez</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Petrol Ofisi FMS International</td>
+            <td>Antonio Pizzonia</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td>Adam Carroll</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Jason Tahincioglo</td>
+            <td>Turkish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Durango</td>
+            <td>Borja Garcia</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Karun Chandhok</td>
+            <td>Indian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">BCN Competicion</td>
+            <td>Sakon Yamamoto</td>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <td>Markus Niemela</td>
+            <td>Finnish</td>
+          </tr>
+          <tr>
+            <td>Henri Karjalainen</td>
+            <td>Finnish</td>
+          </tr>
+          <tr>
+            <td>Ho-Pin Tung</td>
+            <td>Chinese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">David Price Racing</td>
+            <td>Christian Bakkerud</td>
+            <td>Danish</td>
+          </tr>
+          <tr>
+            <td>Olivier Pla</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Andy Soucek</td>
+            <td>Spanish</td>
+          </tr>
+          
+        </table>
+
+        <h2>2008 GP2 Season</h2>
+        <div class="shadow">
+        <p><strong>Giorgio Pantano</strong> won the championship and <strong>Barwa International Campos Team</strong> were team champions.</p>
+        <p>Romain Grosjean, Jerome d'Ambrosio, Kamui Kobayashi, Marko Asmer and Milos Pavlovic made their debuts.</p>
+        <p>Marko Asmer wass the first Estonian driver in the series, Michael Herck was the first Romanian driver and Milos Pavlovic was the first Serbian driver.</p>
+        <p>Campos Team became Barwa International Campos Team and Minardi Piquet Sports reverted back to Piquet Sports. Arden became Trust Team Arden.</p>
+        </div>
+
+        <h3>2008 Teams and Drivers</h3>
+        <table align="center">
+          <tr>
+            <th>Team</th>
+            <th>Driver</th>
+            <th>Nationality</th>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">ART Grand Prix</td>
+            <td>Luca Filippi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Sakon Yamamoto</td>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <td>Romain Grosjean</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">DAMS</td>
+            <td>Jerome d'Ambrosio</td>
+            <td>Belgian</td>
+          </tr>
+          <tr>
+            <td>Kamui Kobayashi</td>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Team Trust Arden</td>
+            <td>Sebastien Buemi</td>
+            <td>Swiss</td>
+          </tr>
+          <tr>
+            <td>Yelmer Buurman</td>
+            <td>Dutch</td>
+          </tr>
+          <tr>
+            <td>Luca Filippi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Trident</td>
+            <td>Mike Conway</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Ho-Pin Tung</td>
+            <td>Chinese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Barwa International Campos Team</td>
+            <td>Vitaly Petrov</td>
+            <td>Russian</td>
+          </tr>
+          <tr>
+            <td>Ben Hanley</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Lucas di Grassi</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Racing Engineering</td>
+            <td>Javier Villa</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Giorgio Pantano</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">iSport International</td>
+            <td>Karun Chandhok</td>
+            <td>Indian</td>
+          </tr>
+          <tr>
+            <td>Bruno Senna</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Super Nova Racing</td>
+            <td>Christian Bakkerud</td>
+            <td>Danish</td>
+          </tr>
+          <tr>
+            <td>Andy Soucek</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Alvaro Parente</td>
+            <td>Portuguese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">Durango</td>
+            <td>Ben Hanley</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Davide Valsecchi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Marcello Puglisi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Alberto Valerio</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">FMS International</td>
+            <td>Roldan Rodriguez</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Adrian Valles</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Adam Carroll</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Marko Asmer</td>
+            <td>Estonian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">BCN Competicion</td>
+            <td>Adrian Valles</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Paolo Mario Nocera</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Milos Pavlovic</td>
+            <td>Serbian</td>
+          </tr>
+          <tr>
+            <td>Carlos Iaconelli</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Piquet Sports</td>
+            <td>Andreas Zuber</td>
+            <td>UAE</td>
+          </tr>
+          <tr>
+            <td>Pastor Maldonado</td>
+            <td>Venezuelan</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">David Price Racing</td>
+            <td>Giacomo Ricci</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Michael Herck</td>
+            <td>Romanian</td>
+          </tr>
+          <tr>
+            <td>Diego Nunes</td>
+            <td>Brazilian</td>
+          </tr>
+
+        </table>
+
+        <h2>2009 GP2 Season</h2>
+        <div class="shadow">
+        <p><strong>Nico Hulkenburg</strong> won the championship and <strong>ART Grand Prix</strong> were the team champions.</p>
+        <p>It was the first time that the series was won before the final round of the season.</p>
+        <p>Nico Hulkenburg and Edoardo Mortara moved to GP2 from Formula 3 Euro Series. Sergio Perez moved from British Formula 3 to GP2. </p>
+        <p>Giedo Van de Garde moved from Formula Renault World Series to GP2.</p>
+        <p>Mike Conway left GP2 for Indycar, Ho-Pin Tung left GP2 for A1 Grand Prix and Super League Formula. Bruno Senna left for Le Mans series.</p>
+        <p>Sebastien Buemi and Romain Grosjean left GP2 for Formula 1, Buemi went to Toro Rosso and Grosjean went to Renault to replace the sacked Nelson Piquet Jr.</p>
+        <p>Former Formula 1 driver Tiago Monteiro bought BCN Competicion team and it was renamed Ocean Racing Team.</p>
+        <p>Fisichello Motorsport became PartypokerRacing.com Scuderia Coloni, there were forced to miss round 8 at Spa due to unresolved financial disputes. 
+          Campos Grand Prix became Barwa Addax and Durango team missed round 9 and 10 due to one car having a broken chassis and not having suitably qualified drivers.
+        </p>
+        </div>
+
+        <h3>2009 Teams and Drivers</h3>
+        <table align="center">
+          <tr>
+            <th>Team</th>
+            <th>Driver</th>
+            <th>Nationality</th>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">ART Grand Prix</td>
+            <td>Pastor Maldonado</td>
+            <td>Venezuelan</td>
+          </tr>
+          <tr>
+            <td>Nico Hulkenburg</td>
+            <td>German</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Telmex Arden International</td>
+            <td>Sergio Perez</td>
+            <td>Mexican</td>
+          </tr>
+          <tr>
+            <td>Edoardo Mortara</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">DAMS</td>
+            <td>Jerome d'Ambrosio</td>
+            <td>Belgian</td>
+          </tr>
+          <tr>
+            <td>Kamui Kobayashi</td>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Trident Racing</td>
+            <td>Ricardo Teixeira</td>
+            <td>Portuguese</td>
+          </tr>
+          <tr>
+            <td>Davide Rigon</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Rodolfo Ganzalez</td>
+            <td>Colombian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Barwa Addax Team</td>
+            <td>Vitaly Petrov</td>
+            <td>Russian</td>
+          </tr>
+          <tr>
+            <td>Romain Grosjean</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Davide Valsecchi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Fat Burner Racing Engineering</td>
+            <td>Lucas di Grassi</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td>Dani CLos</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">iSport International</td>
+            <td>Giedo Van der Garde</td>
+            <td>Dutch</td>
+          </tr>
+          <tr>
+            <td>Diego Nunes</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="3">Durango</td>
+            <td>Davide Valsecchi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Stefano Coletti</td>
+            <td>Monaco</td>
+          </tr>
+          <tr>
+            <td>Nelson Panciatici</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">PartypokerRacing.com Scuderia Coloni</td>
+            <td>Andreas Zuber</td>
+            <td>UAE</td>
+          </tr>
+          <tr>
+            <td>Luiz Razia</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Piquet GP</td>
+            <td>Roldan Rodriguez</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Alberto Valerio</td>
+            <td>Brazilian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Super Nova Racing</td>
+            <td>Luca Filippi</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Javier Villa</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Ocean Racing Technology</td>
+            <td>Karun Chandhok</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Alvaro Parente</td>
+            <td>Portuguese</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">David Price Racing</td>
+            <td>Michael Herck</td>
+            <td>Romanian</td>
+          </tr>
+          <tr>
+            <td>Giacomo Ricci</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Franck Perera</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Johnny Cecotto Jr</td>
+            <td>Colombian</td>
+          </tr>
+        </table>
+
+        <h2>2010 GP2 Season</h2>
+        <div class="shadow">
+      <p><strong>Pastor Maldonado</strong> won the championship and <strong>Rapox</strong> were team champions</p>
       <p>Gp2 now had a feeder with the formation of GP3.</p>
       <p>Ho-Pin Tung returned to the series after a season in Superleague Formula. 
         Charles Pic, Oliver Turvey and Adrian Zaugg moved to the series from Formula Renault 3.5 series. </p>
       <p>Formula 3 Euro Series champion Jules Bianchi and Sam Bird moved to GP2 from Formula 3 Euro Series. Max Chilton moved to Gp2 from British Formula 3, All-Japan Formula Three champion Marcus Ericsson moved to Gp2 and Brendon Hartley made his debut.</p>
-      <p>Edoardo Mortara went back to Formula 3 and Romain Grosjean returned to GP2.</p>
+      <p>Edoardo Mortara went back to Formula 3 and Romain Grosjean returned to GP2 after replacing Nelson Piquet Jr at Renault.</p>
+      <p>Nico Hulkenburg, Vitaly Petrov, Kamui Kobayashi, Karun Chandhok and Lucas di Grassi left GP2 for Formula 1. Hulkenburg went to Williams, Petrov went to Renault, Kobayashi went to Sauber, Chandhok went to Hispania Racing and di Grassi went to Virgin Racing.</p>
+      <p>The Durango team were sidelined due to financial problems.</p>
+        </div>
 
-        <ul>
+      <h3>2010 Teams and Drivers</h3>
+      <table align="center">
+        <tr>
+          <th>Team</th>
+          <th>Driver</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">ART Grand Prix</td>
+          <td>Jules Bianchi</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Sam Bird</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">DAMS</td>
+          <td>Ho-Pin Tung</td>
+          <td>Chinese</td>
+        </tr>
+        <tr>
+          <td>Jerome d'Ambrosio</td>
+          <td>Belgian</td>
+        </tr>
+        <tr>
+          <td>Romain Grosjean</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Arden International Motorsport</td>
+          <td>Charles Pic</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Rodolfo Gonzalez</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Trident Racing</td>
+          <td>Johnny Cecotto Jr</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td>Edoardo Piscopo</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Federico Leo</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Adam Zaugg</td>
+          <td>South African</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">iSport International</td>
+          <td>Oliver Turvey</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>David Valsecchi</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Barwa Addox Team</td>
+          <td>Giedo Van der Garde</td>
+          <td>Dutch</td>
+        </tr>
+        <tr>
+          <td>Segio Perez</td>
+          <td>Mexican</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Super Nova Racing</td>
+          <td>Josef Kral</td>
+          <td>Czech</td>
+        </tr>
+        <tr>
+          <td>Luca Filippi</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Marcus Ericsson</td>
+          <td>Swedish</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Racing Engineering</td>
+          <td>Dani CLos</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Christian Vietoris</td>
+          <td>German</td>
+        </tr>
+        <tr>
+          <td>Ho-pin Tung</td>
+          <td>Chinese</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="5">Scuderia Coloni</td>
+          <td>Alberto Valerio</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td>Alvaro Parente</td>
+          <td>Portuguese</td>
+        </tr>
+        <tr>
+          <td>James Jakes</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Vladimir Arabadzhiev</td>
+          <td>Bulgarian</td>
+        </tr>
+        <tr>
+          <td>Brendon Hartley</td>
+          <td>New Zealander</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Rapox</td>
+          <td>Luiz Razia</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td>Pastor Maldonado</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Ocean Racing Technology</td>
+          <td>Max Chilton</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Fabio Leimer</td>
+          <td>Swiss</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">DPR</td>
+          <td>Michael Herck</td>
+          <td>Romanian</td>
+        </tr>
+        <tr>
+          <td>Giacomo Ricci</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Fabrizio Crestani</td>
+          <td>Italian</td>
+        </tr>
+      </table>
+
+      <h2>2011 GP2 Season</h2>
+      <div class="shadow">
+      <p><strong>Romain Grosjean</strong> won the championship</p>
+      <p>GP3 champion Esteban Gutierrez moved to GP2 and Jolyon Palmer made his debut.</p>
+      <p>Lotus Cars lent their name to ART Grand Prix which became Lotus ART Grand Prix, Caterham Team AirAsia and Carlin entered GP2 and David Price Racing left the series. 
+        Caterham Team AirAsia was the first Malaysian team to enter GP2. 
+      </p>
+      <p>Ho-Pin Tung left GP2 for Indycar, Pastor Maldonado, Jerome d'Ambrosio and Sergio Perez left GP2 for Formula 1. Maldonado moved to Williams, d'Ambrosio to Virgin Racing and Perez went to Sauber.</p>
+      </div>
+
+      <h3>2011 Teams and Drivers</h3>
+      <table align="center">
+        <tr>
+          <th>Team</th>
+          <th>Driver</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Lotus ART</td>
+          <td>Jules Bianchi</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Esteban Gutierrez</td>
+          <td>Mexican</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">DAMS</td>
+          <td>Romain Grosjean</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Pal Vorhang</td>
+          <td>Norwegian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Carlin</td>
+          <td>Alvaro Parente</td>
+          <td>Portuguese</td>
+        </tr>
+        <tr>
+          <td>Max Chilton</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Mikhail Aleshin</td>
+          <td>Russian</td>
+        </tr>
+        <tr>
+          <td>Oliver Turvey</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Trident Racing</td>
+          <td>Rodolfo Gonzalez</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td>Stefano Coletti</td>
+          <td>Monaco</td>
+        </tr>
+        <tr>
+          <td>Stephane Richelmi</td>
+          <td>Monaoc</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Barwa Addox Team</td>
+          <td>Charles Pic</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Giedo Van der Garde</td>
+          <td>Dutch</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">iSport International</td>
+          <td>Sam Bird</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Marcus Ericsson</td>
+          <td>Swedish</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Racing Engineering</td>
+          <td>Dani CLos</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Christian Vietoris</td>
+          <td>German</td>
+        </tr>
+        <tr>
+          <td>Alvaro Parente</td>
+          <td>Portuguese</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Super Nova Racing</td>
+          <td>Fairuz Fauzy</td>
+          <td>Malaysian</td>
+        </tr>
+        <tr>
+          <td>Luca Filippi</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Adam Carroll</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team">Arden International</td>
+          <td>Josef Kral</td>
+          <td>Czech</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Scuderia Coloni</td>
+          <td>Luca Filippi</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Michael Herck</td>
+          <td>Romanian</td>
+        </tr>
+        <tr>
+          <td>David Rigan</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Kevin Ceccon</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Ocean Racing Technology</td>
+          <td>Brendon Hartley</td>
+          <td>New Zealander</td>
+        </tr>
+        <tr>
+          <td>Kevin Mirocha</td>
+          <td>German</td>
+        </tr>
+        <tr>
+          <td>Johnny Cecotto Jr</td>
+          <td>Columbian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Rapox</td>
+          <td>Fabio Leimer</td>
+          <td>Swiss</td>
+        </tr>
+        <tr>
+          <td>Julian Lecl</td>
+          <td>Venezuelan</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Caterham Team AirAsia</td>
+          <td>Luiz Razia</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td>Davide Valsecchi</td>
+          <td>Italian</td>
+        </tr>
+      </table>
+
+      <h2>2012 GP2 Season</h2>
+      <div class="shadow">
+      <p><strong>Davide Valsecchi</strong> won the championship and <strong>DAMS</strong> were the teams champions.</p>
+      <p>British Formula 3 champion Felipe Nasr entered GP2, James Calado and Rio Haryanto moved to GP2 from GP3. Nathanael Berton moved from Formula Renault 3.5 to GP2.</p>
+      <p>Giedo Van der Garde moved from Barwa Addax team to Caterham Racing and joined the parent team Caterham F1 as a test and reserve driver.</p>
+      <p>Christian Vietoris left GP2 for DTM series in Germany. Sam Bird and Jules Bianchi left GP2 for Renault 3.5, Bianchi was also a Force India reserve driver.</p>
+      <p>Romain Grosjean and Charles Pic left GP2 for Formula 1, Grosjean went to Lotus and Pic went to Marussia.</p>
+      <p>Carlin Motorsport entered into partnership with Marussia Motors and Marussia F1. ART Grand Prix was renamed Lotus Grand Prix in GP2 and GP3 due to the relationship with their sponsors Lotus Cars. 
+        The livery changed to the black and gold used by the Lotus F1 team.
+      </p>
+      <p>Team Lazarus replaced Super Nova who left the series and the calendar was expanded to 12 rounds including new races in Malaysia and Singapore.</p>
+      </div>
+
+      <h3>2012 Teams and Drivers</h3>
+      <table align="center">
+        <tr>
+          <th>Team</th>
+          <th>Driver</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">DAMS</td>
+          <td>Davide Valsecchi</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Felipe Nasr</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Lotus GP</td>
+          <td>James Calado</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Esteban Gutierrez</td>
+          <td>Mexican</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Carlin</td>
+          <td>Max Chilton</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Rio Haryanto</td>
+          <td>Indonesian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Arden International</td>
+          <td>Simon Trummer</td>
+          <td>Swiss</td>
+        </tr>
+        <tr>
+          <td>Luiz Razia</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Trident Racing</td>
+          <td>Stefano Coletti</td>
+          <td>Monaco</td>
+        </tr>
+        <tr>
+          <td>Julian Leal</td>
+          <td>Venezuelan</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Barwa Addox Team</td>
+          <td>Johnny Ceccotto Jr</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td>Josef Kral</td>
+          <td>Czech</td>
+        </tr>
+        <tr>
+          <td>Dani Clos</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Jake Rosenzweig</td>
+          <td>American</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Racing Engineering</td>
+          <td>Fabio Leimer</td>
+          <td>Swiss</td>
+        </tr>
+        <tr>
+          <td>Nathanael Berthon</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">iSport International</td>
+          <td>Marcus Ericsson</td>
+          <td>Swedish</td>
+        </tr>
+        <tr>
+          <td>Jolyon Palmer</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Caterham Racing</td>
+          <td>Rodolfo Gonzalez</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td>Giedo Van de Garde</td>
+          <td>Dutch</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Venezuela GP Lazarus</td>
+          <td>Fabrizio Crestani</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Sergio Canamasas</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Giancarlo Serenelli</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td>Rene Binder</td>
+          <td>Austrian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Rapax</td>
+          <td>Stefano Coletti</td>
+          <td>Monaco</td>
+        </tr>
+        <tr>
+          <td>Ricardo Teixeira</td>
+          <td>Portuguese</td>
+        </tr>
+        <tr>
+          <td>Tom Dillman</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Daniel de Jorg</td>
+          <td>Dutch</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Ocean Racing Technology</td>
+          <td>Jon Lancaster</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Brendon Hartley</td>
+          <td>New Zealander</td>
+        </tr>
+        <tr>
+          <td>Victor Guerin</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td>Nigel Melker</td>
+          <td>Dutch</td>
+        </tr>
+      </table>
+
+      <h2>2013 GP2 Season</h2>
+      <div class="shadow">
+      <p><strong>Fabio Leimer</strong> was the championship and <strong>Russian Time</strong> were team champions.</p>
+      <p>GP3 champion Mitch Evans and Daniel Abt moved to GP2 from GP3 and Sam Bird returned to the series from Formula Renault 3.5. Qinghua Ma entered GP2 after the HRT Formula 1 team collapsed.</p>
+      <p>Luca Filippi left GP2 for Indycar in America.</p>
+      <p>Max Chilton, Esteban Gutierrez and Luiz Razia left GP2 for Formula 1, Chilton and Razia moved to Marussia, but Razia lost his seat a month later and failed to secure a GP2 seat. 
+        Gutierrez moved to Sauber.
+      </p>
+      <p>ART Grand Prix reverted back to their original name and dropped Lotus from their name.</p>
+      <p>Three new teams entered GP2, Russian Time, Hilmer Motorsport and MP Motorsport replacing iSport International, Ocean Racing Tecchnology and Scuderia Coloni who had left the series. 
+        Russian Time purchased iSport International, Hilmer Motorsport replaced Ocean Racing Technology which withdrew from GP" and GP3 due to financial difficulties. 
+        Scuderia Coloni left the series and were replaced by MP Motorsport.
+      </p>
+      </div>
+
+      <h3>2013 Teams and Drivers</h3>
+      <table align="center">
+        <tr>
+          <th>Head</th>
+          <th>Driver</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">DAMS</td>
+          <td>Marcus Ericsson</td>
+          <td>Swedish</td>
+        </tr>
+        <tr>
+          <td>Stephane Richelmi</td>
+          <td>Monaco</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">ART Grand Prix</td>
+          <td>James Colado</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Daniel Abt</td>
+          <td>German</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Arden International</td>
+          <td>Mitch Evans</td>
+          <td>New Zealander</td>
+        </tr>
+        <tr>
+          <td>Johnny Cecotto Jr </td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Carlin</td>
+          <td>Felipe Nasr</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td>Jolyon Palmer</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="5">Trident Racing</td>
+          <td>Nathanael Berthon</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Kevin Ceccon</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Ricardo Teixeira</td>
+          <td>Portuguese</td>
+        </tr>
+        <tr>
+          <td>Sergio Campana</td>
+          <td>Portuguese</td>
+        </tr>
+        <tr>
+          <td>Gianmaria Raimando</td>
+          <td>Canadian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Racing Engineering</td>
+          <td>Julian Leal</td>
+          <td>Venezuelan</td>
+        </tr>
+        <tr>
+          <td>Fabio Leimer</td>
+          <td>Swiss</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Russian Time</td>
+          <td>Sam Bird</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Tom Dillman</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">EQ8 Caterham Racing</td>
+          <td>Segio Canamasas</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Quinhua Ma</td>
+          <td>Chinese</td>
+        </tr>
+        <tr>
+          <td>Alexander Rossi</td>
+          <td>American</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Barwa Addox Team</td>
+          <td>Jake Rosenzweig</td>
+          <td>American</td>
+        </tr>
+        <tr>
+          <td>Rio Haryanto</td>
+          <td>Indonesian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Rapax</td>
+          <td>Stefano Coletti</td>
+          <td>Monaco</td>
+        </tr>
+        <tr>
+          <td>Simon Trummer</td>
+          <td>Swiss</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="5">Hilmer Motorsport</td>
+          <td>Conor Daly</td>
+          <td>American</td>
+        </tr>
+        <tr>
+          <td>Robin Frijns</td>
+          <td>Dutch</td>
+        </tr>
+        <tr>
+          <td>Adrian Quaife-Hobbs</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Pal Varhaug</td>
+          <td>Norwegian</td>
+        </tr>
+        <tr>
+          <td>Jon Lancaster</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">MP Motorsport</td>
+          <td>Adrian Quaife-Hobbs</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Dani CLos</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Daniel de Jong</td>
+          <td>Dutch</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Venezuelan GP Lazarus</td>
+          <td>Kevin Giovesi</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Fabrizio Crestani</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Vittorio Ghirelli</td>
+          <td>Italian</td>
+        </tr>
+       
+      </table>
+
+      <h2>2014 GP2 Season</h2>
+      <div class="shadow">
+      <p><strong>Jolyon Palmer</strong> won the championship and <strong>DAMS</strong> were the team champions.</p>
+      <p>Pierre Gasly and Stoffel Vandoorne moved to GP2 from Formula Renault 3.5 series and European Formula 3 champion Raffaele Marciello moved to GP2.</p>
+      <p>Formula 3 champion Nicolas Latifi replaced Daniel Abt at Hilmer Motorsport for the final round of the championship and Daniel Abt left for new racing series Formula E.</p>
+      <p>Sam Bird left GP2 for United Sportscar Championship, James Calado and Fabio Leimer left GP2 for the World Endurance Championship. Marcus Ericsson and Robin Frijns left GP2 for Formula 1, both moved to Caterham F1 team with Frijns as the test driver.</p>
+      <p>The Addax team changed back to Campos Racing as team Principal Alejandro Agag left to concentrate on orgainishing the new racing series Formula E. 
+        Hilmer Motorsport formed a partnership with Force India to become the Force India Junior Team.
+      </p>
+      </div>
+
+      <h3>2014 Teams and Drivers</h3>
+      <table align="center">
+        <tr>
+          <th>Head</th>
+          <th>Driver</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">ART Grand Prix</td>
+          <td>Takoya Izawa</td>
+          <td>Japanese</td>
+        </tr>
+        <tr>
+          <td>Stoffel Vandoorne</td>
+          <td>Belgian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">DAMS</td>
+          <td>Jolyon Palmer</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Stephane Richelmi</td>
+          <td>Monaco</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Carlin</td>
+          <td>Felipe Nasr</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td>Julian Leal</td>
+          <td>Venezuelan</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Arden International</td>
+          <td>Rene Binder</td>
+          <td>Austrian</td>
+        </tr>
+        <tr>
+          <td>Andre Negrao</td>
+          <td>Brazilian</td>
+        </tr>
+        <tr>
+          <td>Tom Dillman</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Trident</td>
+          <td>Axil Jefferies</td>
+          <td>Zimbabwean</td>
+        </tr>
+        <tr>
+          <td>Sergio Canamasas</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Johnny Cecotto Jr</td>
+          <td>Colombian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Racing Engineering</td>
+          <td>Raffaele Marciello</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Artem Markelov</td>
+          <td>Russian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Venezuela GP Lazarus</td>
+          <td>Nathanael Berthon</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Conor Daly</td>
+          <td>American</td>
+        </tr>
+        <tr>
+          <td>Sergio Campana</td>
+          <td>Italian</td>
+        </tr>
+      </table>
+
+      <h2>2015 GP2 Season</h2>
+      <div class="shadow">
+      <p><strong>Stoffel Vandoorne</strong> won the championship and <strong>ART Grand Prix</strong> were team champions.</p>
+      <p>GP3 champion Alex Lynn moved to GP2, Nobuharu Matsushita moved to GP2 from All-Japan Formula 3 and Sergey Sirotkin moved to GP2 from Formula Renault 3.5 series.</p>
+      <p>Nicholas Latifi left GP2 for Formula Renault 3.5 and Daniel Abt left for Formula E. Jolyon Palmer and Felipe Nasr left GP2 for Formula 1, Nasr went to Sauber and Palmer became Lotus test driver. </p>
+      <p>GP3 team Staus Grand Prix expanded and entered GP2 repllacing Caterham Racing, Virtuosi Racing took over Russian Time.</p>
+      </div>
+
+      <h3>2015 Teams and Drivers</h3>
+      <table align="center">
+        <tr>
+          <th>Team</th>
+          <th>Driver</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">DAMS</td>
+          <td>Pierre Gasly</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Alex Lynn</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">ART GP</td>
+          <td>Stoffel Vandoorne</td>
+          <td>Belgian</td>
+        </tr>
+        <tr>
+          <td>Nobuharu Matsushita</td>
+          <td>Japanese</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="6">Carlin</td>
+            <td>Julian Leal</td>
+            <td>Venezuelan</td>
+          <tr>
+            <td>Dean Stoneman</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Marco Sorensen</td>
+            <td>Danish</td>
+          </tr>
+          <tr>
+            <td>Johnny Cecotto Jr</td>
+            <td>Colombian</td>
+          </tr>
+          <tr>
+            <td>Sean Gelael</td>
+            <td>Indonesian</td>
+          </tr>
+          <tr>
+            <td>Jann Mardenborough</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="5">Trident</td>
+            <td>Johnny Cecotto Jr</td>
+            <td>Colombian</td>
+          </tr>
+          <tr>
+            <td>Raffaele Marciello</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td>Rene Binder</td>
+            <td>Austrian</td>
+          </tr>
+          <tr>
+            <td>Gustav Malja</td>
+            <td>Swedish</td>
+          </tr>
+          <tr>
+            <td>Daniel de Jong</td>
+            <td>Dutch</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Racing Engineering</td>
+            <td>Jordan King</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Alexander Rossi</td>
+            <td>American</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Russian Time</td>
+            <td>Mitch Evans</td>
+            <td>New Zealander</td>
+          </tr>
+          <tr>
+            <td>Artem Makelov</td>
+            <td>Russian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="2">Campos Racing</td>
+            <td>Arthur Pic</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Rio Haryanto</td>
+            <td>Indonesian</td>
+          </tr>
+          <tr>
+            <td class="team" rowspan="4">MP Motorsport</td>
+            <td>Sergio Canamasas</td>
+            <td>Spanish</td>
+          </tr>
+          <tr>
+            <td>Oliver Rowland</td>
+            <td>British</td>
+          </tr>
+          <tr>
+            <td>Nicholas Latifi</td>
+            <td>Canadian</td>
+          </tr>
+          <tr>
+            <td>Meindert Van Bouren</td>
+            <td>Dutch</td>
+          </tr>
+      </table>
+
+      <h2>2016 GP2 Season</h2>
+      <div class="shadow">
+      <p><strong>Pierre Gasly</strong> won the championship and <strong>Prema Racing</strong> were team champions.</p>
+      <p>It was the final GP2 season.</p>
+      <p>Luca Ghiotto moved to GP2 from GP3, Antonio Giovinazzi moved to GP2 from Formula 3.</p>
+      <p>Stoffel Vandoorne left GP2 for Super Formula in Japan and Rio Haryanto left GP2 for Manor Racing in Formula 1.</p>
+      <p>Status Grand Prix and Hilmer Motorsport left GP2, Prema Racing replaced Status Grand Prix but no replacement was found for Hilmer Motorsport.</p>
+      <p>Nobuharu Matsushita was suspended for the fourth round of the championship in Austria due to erratic driving at the Baku round.</p>
+      </div>
+      
+      <h3>2016 Team and Drivers</h3>
+      <table align="center">
+        <tr>
+          <th>Head</th>
+          <th>Driver</th>
+          <th>Nationality</th>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">ART Grand Prix</td>
+          <td>Nobuharu Matsushita</td>
+          <td>Japanese</td>
+        </tr>
+        <tr>
+          <td>Rene Binder</td>
+          <td>Austrian</td>
+        </tr>
+        <tr>
+          <td>Sergey Sirotkin</td>
+          <td>Russian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">DAMS</td>
+          <td>Alex Lynn</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Nicholas Latifi</td>
+          <td>Canadian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="4">Carlin</td>
+          <td>Rene Binder</td>
+          <td>Austrian</td>
+        </tr>
+        <tr>
+          <td>Sergio Canamasas</td>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Marvin Kirchhofer</td>
+          <td>German</td>
+        </tr>
+        <tr>
+          <td>Louis Deletraz</td>
+          <td>Swiss</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Prema Racing</td>
+          <td>Antonio Giovinazzi</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Pierre Gasly</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Arden International</td>
+          <td>Nahil Jeffri</td>
+          <td>Malaysian</td>
+        </tr>
+        <tr>
+          <td>Jimmy Eriksson</td>
+          <td>Swedish</td>
+        </tr>
+        <tr>
+          <td>Emil Benstorff</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Trident</td>
+          <td>Philo Paz Armand</td>
+          <td>Indonesian</td>
+        </tr>
+        <tr>
+          <td>Luca Ghiotto</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">MP Motorsports</td>
+          <td>Oliver Rowland</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td>Daniel de Jong</td>
+          <td>Dutch</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Racing Engineering</td>
+          <td>Norman Nato</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Jordan King</td>
+          <td>British</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Campos Racing</td>
+          <td>Mitch Evans</td>
+          <td>New Zealander</td>
+        </tr>
+        <tr>
+          <td>Sean Gelael</td>
+          <td>Indonesian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="2">Russian Time</td>
+          <td>Raffaele Marciello</td>
+          <td>Italian</td>
+        </tr>
+        <tr>
+          <td>Artem Markelov</td>
+          <td>Russian</td>
+        </tr>
+        <tr>
+          <td class="team" rowspan="3">Rapax</td>
+          <td>Gustav Malja</td>
+          <td>Swedish</td>
+        </tr>
+        <tr>
+          <td>Arthur Pic</td>
+          <td>French</td>
+        </tr>
+        <tr>
+          <td>Johnny Cecotto Jr</td>
+          <td>Colombian</td>
+        </tr>
+      </table>
+
+     <ul>
           <li>Autodromo Enzo e Dino Ferrari</li>
             <dt>Supported the San Marino Grand Prix</dt>
-            <dd>2005</dd>
+            <dd>2005, 2006</dd>
           <li>Circuit de Catalunya</li>
             <dt>Supported the Spanish Grand Prix</dt>
-            <dd>2005, 2010</dd>
+            <dd>2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016</dd>
           <li>Circuit de Monoco</li>
             <dt>Supported the Monaco Grand Prix</dt>
-            <dd>2005, 2010</dd>
+            <dd>2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2016</dd>
           <li>Nurburgring</li>
             <dt>Supported the European Grand Prix</dt>
-            <dd>2005</dd>
+            <dd>2005, 2006, 2007</dd>
+            <dt>Supported the German Grand Prix</dt>
+            <dd>2009, 2011, 2013</dd>
           <li>Circuit de Nevers Magny-Cours</li>
             <dt>Supported the French Grand Prix</dt>
-            <dd>2005</dd>
+            <dd>2005, 2006, 2007, 2008</dd>
           <li>Istanbul Park</li>
             <dt>Supported the Turkish Grand Prix</dt>
-            <dd>2005, 2010</dd>
+            <dd>2005, 2006, 2007, 2008, 2009, 2010, 2011</dd>
           <li>Valancia Street Circuit</li>
-            <dt>Suppoorted the European Grand Prix</dt>
-            <dd>2010</dd>
+            <dt>Supported the European Grand Prix</dt>
+            <dd>2008, 2010, 2011, 2012</dd>
           <li>Silverstone Circuit</li>
             <dt>Supported the British Grand Prix</dt>
-            <dd>2005, 2010</dd>
+            <dd>2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016</dd>
           <li>Hockenheimring</li>
             <dt>Supported the German Grand Prix</dt>
-            <dd>2005, 2010</dd>
+            <dd>2005, 2006, 2010, 2012, 2013, 2016</dd>
           <li>Hungaroring</li>
             <dt>Supported the Hungarian Grand Prix</dt>
-            <dd>2005, 2010</dd>
-           <li>Circuit de Spa-Francorchamps</li>
+            <dd>2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016</dd>
+          <li>Circuit de Spa-Francorchamps</li>
             <dt>Supported the Belgian Grand Prix</dt>
-            <dd>2005, 2010</dd>
+            <dd>2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016</dd>
           <li>Autodromo Nazionale Monza</li>
             <dt>Supported the Italian Grand Prix</dt>
-            <dd>2005, 2010</dd>
+            <dd>2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015</dd>
           <li>Bahrain International Circuit</li>
             <dt>Supported the Bahrain Grand Prix</dt>
-            <dd>2005</dd>
+            <dd>2005, 2007, 2012, 2013, 2014, 2015</dd>
+            <dt>Stand Alone event</dt>
+            <dd>2012</dd>
+            <dt>Suppoorted the 6 Hours of Bahrain</dt>
           <li>Yas Marina Circuit</li>
             <dt>Suppoorted the Abu Dhabi Grand Prix</dt>
-            <dd>2010</dd>   
+            <dd>2010, 2011, 2013, 2014, 2015, 2016/dd> 
+          <li>Circuit de Valencia</li>
+            <dt>Stand alone event</dt>
+            <dd>2006, 2007</dd>  
+          <li>Autodromo Internacional do Algarve, Portugal</li>
+            <dt>Supported the GT Algarve 2 Hours</dt>
+            <dd>2009</dd>
+          <li>Sepang International Circuit</li>
+            <dt>Supported the Malaysian Grand Prix</dt>
+            <dd>2012, 2013, 2016</dd>
+          <li>Marina Bay Street Circuit</li>
+            <dt>Supported the Singapore Grand Prix</dt>
+            <dd>2012, 2013, 2014</dd>
+          <li>Red Bull Ring</li>
+              <dt>Supported the Austrian Grand Prix</dt>
+              <dd>2014, 2015, 2016</dd>
+          <li>Sochi Autodrom</li>
+            <dt>Supported the Russian Grand Prix</dt>
+            <dd>2014, 2015</dd>
+          <li>Baku Street Circuit</li>
+            <dt>Supported the European Grand Prix</dt>
+            <dd>2016</dd>
+             
         </ul>
 </body>
 <footer>
